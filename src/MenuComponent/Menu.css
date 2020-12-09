@@ -1,0 +1,296 @@
+.menu {
+    z-index: 2;
+    width: 100%;
+    padding-top: 2.6rem;
+    background: linear-gradient(180deg, #5C83D0 0%, #518CDE 100%);
+    box-shadow: 6px 0px 18px rgba(0, 0, 0, 0.06);
+    height: 100%;
+}
+.logo {
+    width: 82.42%;
+    margin-left: 8.2%;
+}
+.logo__min {
+    display: none;
+}
+.menu__user__block {
+    display: flex;
+    align-items: center;
+    width: 81.25%;
+    margin: 8.59% auto 14.84%;
+}
+.user__icon__block {
+    position: relative;
+    width: 22.11%;
+    margin-right: 7.69%;
+    padding-top: 22.11%;
+    border-radius: 50%;
+}
+.user__icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.user__name {
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    color: #FFFFFF;
+}
+.user__email {
+    font-weight: 300;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+.menu__block {
+
+}
+.menu__link {
+    margin: 7.1% 0 7.1% 14.84%;
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    opacity: .5;
+    transition: all 0.3s ease;
+}
+.menu__link.active {
+    opacity: 1;
+}
+.menu__link:hover {
+    opacity: 1;
+}
+.link__icon {
+    margin-right: 1.3rem;
+    font-size: 2rem;
+}
+.plus__icon {
+    margin-top: -3px;
+}
+.menu__border__div {
+    width: 100%;
+    height: 1px;
+    background-color: rgba(235, 239, 242, 0.5);
+    margin: 16.4% 0 9.375%;
+}
+.sublinks__block {
+    height: 0;
+    width: 100%;
+    margin-left: 11.72%;
+    transform: scaleY(0);
+    transition: all 0.3s ease;
+}
+.sublinks__block .menu__link {
+    display: none;
+}
+.sublinks__block.active {
+    transform: scale(1);
+    height: auto;
+}
+.sublinks__block.active .menu__link {
+    display: flex;
+}
+.sublinks__block.s__sublinks__block {
+    height: 0;
+    overflow: hidden;
+}
+.sublinks__block.s__sublinks__block .menu__link {
+    display: none;
+}
+.sublinks__block.s__sublinks__block.active {
+    height: auto;
+    overflow: visible;
+}
+.sublinks__block.s__sublinks__block.active .menu__link{
+    display: flex;
+}
+.sublink__icon {
+    font-size: 1.4rem;
+}
+.menu__link:nth-child(2) {
+    margin-bottom: 0;
+}
+@media screen and (max-width: 1440px) {
+    .menu {
+        width: 25.6rem;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .menu {
+        width: 22rem;
+    }
+}
+@media screen and (max-width: 767px) {
+    .logo {
+        display: none;
+    }
+    .logo__min {
+        display: block;
+        width: 4rem;
+        margin-bottom: 3rem;
+    }
+    .menu {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu__user__block {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+    }
+    .user__icon__block {
+        width: 100%;
+        padding-top: 100%;
+        margin-right: 0;
+    }
+    .user__name {
+        display: none;
+    }
+    .user__email {
+        display: none;
+    }
+    .menu__block {
+        width: 100%;
+        position: relative;
+        z-index: 3;
+    }
+    .menu__block.active__mobile {
+        overflow: visible;
+    }
+    .sublinks__block {
+        position: absolute;
+        right: 0;
+        transform: translateX(-200%);
+        top: 62px;
+        width: 200px;
+        height: auto;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        background: linear-gradient(180deg, #5C83D0 0%, #518CDE 100%);
+        transition: all 0.3s ease;
+        z-index: 11;
+        overflow: visible;
+    }
+    .sublinks__block.s__sublinks__block {
+        overflow: hidden;
+    }
+    .sublinks__block.active__mobile .menu__link {
+        display: flex;
+    }
+    .sublinks__block.active__mobile {
+        transform: translateX(100%);
+    }
+    .sublinks__block.s__sublinks__block.active__mobile {
+        height: auto;
+        overflow: visible;
+    }
+    .sublinks__block.s__sublinks__block.active__mobile .menu__link{
+        display: flex;
+    }
+    .sublinks__block .link__title {
+        display: block;
+        margin-left: 1rem;
+    }
+    .sublinks__block .menu__link {
+        width: calc(100% - 4rem);
+        margin: 1.5rem 2rem 1.5rem;
+    }
+    .menu__link {
+        margin: 3rem 0 0 0;
+        justify-content: center;
+    }
+    .menu__border__div {
+        margin:3rem 0 2rem;
+    }
+    .link__title {
+        display: none;
+    }
+    .link__icon {
+        margin-right: 0;
+        font-size: 2.4rem;
+    }
+}
+@media screen and (max-width: 575px) {
+    .menu {
+        width: 100%;
+        padding: 0 4.07% 0 2.72%;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 8rem;
+        overflow: hidden;
+        position: relative;
+    }
+    .menu.active {
+        overflow: visible;
+    }
+    .menu__border__div {
+        display: none;
+    }
+    .user__block, .menu__block {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .user__block {
+        width: 30%;
+    }
+    .menu__block {
+        height: 100%;
+        width: 30%;
+        position: static;
+    }
+    .menu__link {
+        height: 100%;
+    }
+    .logo__min {
+        margin-bottom: 0;
+    }
+    .user__icon__block {
+        width: 4rem;
+        padding-top: 4rem;
+        margin-right: 0;
+        margin-left: 3rem;
+    }
+    .menu__link {
+        margin: 0;
+    }
+    .sublinks__block {
+        width: 0%;
+        padding: 0;
+        top: 8rem;
+        right: 0;
+        transform: translateX(0%);
+    }
+    .sublinks__block .menu__link {
+        display: none;
+    }
+    .sublinks__block.active__mobile {
+        height: 112px;
+        padding: 1% 5%;
+        width: 100%;
+        transform: translateX(0%);
+    }
+    .sublinks__block.active .menu__link {
+        display: flex;
+    }
+    .sublinks__block.s__sublinks__block.active__mobile {
+        top: 112px;
+        width: 70%;
+    }
+}
+@media screen and (max-width: 400px) {
+    .menu__block {
+        width: 45%;
+    }
+}

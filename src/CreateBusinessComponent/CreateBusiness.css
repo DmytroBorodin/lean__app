@@ -1,0 +1,22 @@
+.create-business__row {
+    margin-top: 4.9rem;
+}
+.cb__title {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+    color: #535355;
+}
+.cb__text {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 137%;
+    color: #535355;
+}
+
+@media screen and (max-width: 575px) {
+    .create-business__row {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

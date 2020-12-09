@@ -1,0 +1,21 @@
+.search__item {
+    width: 100%;
+    padding: 20px 9.26%;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.search__item__name {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    color: #323C47;
+}
+.search__item .icon-add_to_fav {
+    font-size: 32px;
+}

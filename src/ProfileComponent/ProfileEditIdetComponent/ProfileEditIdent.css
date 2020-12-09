@@ -1,0 +1,51 @@
+.edit .left__block{
+    width: 29.47%;
+}
+.edit .right__block{
+    width: 29.47%;
+}
+.edit .left__block:first-child {
+    margin-right: 14.88%;
+}
+.edit input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #D3D8DD;
+    padding: 0.6rem 0 0.9rem;
+    color: #323C47;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    letter-spacing: 0.01em;
+}
+.edit input::placeholder {
+    color: #323C47;
+    opacity: 0.5;
+}
+button.save {
+    width: 11.2rem;
+    height: 4.4rem;
+    font-weight: 600;
+    font-size: 1.3rem;
+    line-height: 1.9rem;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 4rem;
+}
+@media screen and (max-width: 992px) {
+    .edit .left__block{
+        width: 45%;
+    }
+    .edit .right__block{
+        width: 45%;
+    }
+    .edit {
+        justify-content: space-between;
+    }
+}
+@media screen and (max-width: 575px) {
+    .indent__comp__wrap {
+        margin-top: 1.5rem;
+    }
+    .edit .left__block, .edit .right__block {
+        width: 90%;
+    }
+}

@@ -1,0 +1,126 @@
+.ba__comp__wrap {
+    width: 92.3%;
+    margin-top: 2.37%;
+}
+.ba__row {
+    width: 100%;
+    padding: 1.77% 1% 1.57% 2.35%;
+    align-items: center;
+    background: #fff;
+    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.06);
+    border-radius: 4px;
+    margin-bottom: 32px;
+}
+.ba__left__block {
+    width: 59.05%;
+}
+.ba__right__block {
+    width: 33.5%;
+}
+.desktop__img {
+    width: 100%;
+}
+.ba__left__block .cb__title {
+    margin-bottom: 21px;
+}
+.ba__text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 150%;
+    color: #535355;
+}
+.ba__left__block .ba__text {
+    margin-bottom: 33px;
+}
+.ba__accept__block {
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+}
+.ba__accept__block .ba__text {
+    margin-bottom: 0;
+    width: 80%;
+}
+.ba__accept__btn {
+    width: 11px;
+    margin-right: 8px;
+}
+.mob__screen__img {
+    display: none;
+}
+.ba__main__btn {
+    width: 169px;
+    height: 49px;
+    font-size: 16px;
+    line-height: 19px;
+}
+.ba__main__footer__block {
+    margin-left: 2.35%;
+}
+.ba__main__footer__block .cb__title {
+    margin-bottom: 18px;
+}
+.ba__main__footer__block .cb__text {
+    margin-bottom: 180px;
+}
+.ba__footer__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 736px;
+    margin-left: 4.8%;
+}
+.ba__footer__img {
+    margin-bottom: 16px;
+}
+.ba__footer__block .ba__text {
+    text-align: center;
+}
+@media screen and (max-width: 1440px) {
+    .ba__main__footer__block .cb__text {
+        margin-bottom: 17.66%;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .ba__comp__wrap {
+        width: 100%;
+    }
+    .ba__row {
+        width: 100%;
+        padding: 15px 15px;
+        align-items: center;
+        background: #fff;
+        box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.06);
+        border-radius: 4px;
+        margin-bottom: 32px;
+    }
+    .ba__right__block{
+        width: 0;
+    }
+    .ba__left__block{
+        width: 100%;
+    }
+    .desktop__img {
+        display: none;
+    }
+    .mob__screen__img {
+        width: 70%;
+        display: block;
+    }
+    .ba__accept__block {
+        margin-bottom: 0;
+    }
+    .ba__footer__block {
+        width: 100%;
+        margin-left:0%;
+    }
+}
+
+@media screen and (max-width: 495px) {
+    .ba__accept__block {
+        align-items: flex-start;
+    }
+    .ba__accept__btn {
+        margin-top: 3.5px;
+    }
+}

@@ -1,0 +1,67 @@
+.business__card {
+    width: 49.03%;
+    padding: 1.72%;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+}
+.business__card__header {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin-bottom: 3.73%;
+}
+.card__name {
+    font-size: 1.6rem;
+    line-height: 125%;
+    letter-spacing: 0.01em;
+    color: #323C47;
+}
+.edit__btn {
+    background: transparent;
+    font-size: 1.4rem;
+    line-height: 171%;
+    letter-spacing: 0.01em;
+    color: #3E8CE2;
+}
+.business__card__body {
+    margin-bottom: 3.95%;
+}
+.business__card__text {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 1.4rem;
+    line-height: 171%;
+    letter-spacing: 0.01em;
+    color: #4C5862;
+}
+.business__card__text span {
+    opacity: 0.5;
+    margin-right: 0.3rem;
+}
+.business__card__footer {
+    display: flex;
+    justify-content: flex-end;
+}
+.business__footer__btn {
+    width: 128px;
+    height: 22px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FAFAFA;
+    background: #FFB946;
+    border-radius: 4px;
+}
+@media screen and (max-width: 991px) {
+    .business__card {
+        width: 100%;
+        margin-bottom: 1.5rem;
+        padding: 3%;
+    }
+}
+

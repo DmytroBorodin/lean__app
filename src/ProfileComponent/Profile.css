@@ -1,0 +1,43 @@
+.component__wrapper.profile {
+    position: relative;
+}
+.nav__row {
+    margin-top: 2.7rem;
+}
+.nav__row__link {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    letter-spacing: 0.01em;
+    color: rgba(106, 112, 126, 0.5);
+    margin-right: 2.5rem;
+    transition: all 0.3s ease;
+}
+.nav__row__link.active {
+    color: #000000;
+}
+.nav__row__link:hover {
+    color: #000000;
+}
+.profile__bottom__text {
+    padding-right: 4.07%;
+    left: 2.72%;
+    font-weight: 300;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    color: #535355;
+    margin-top: 4rem;
+}
+.profile__bottom__text a {
+    display: inline;
+    color: #3E8CE2;
+}
+@media screen and (max-width: 575px) {
+    .nav__row {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .nav__row__link {
+        margin-bottom: 1.5rem;
+    }
+}
